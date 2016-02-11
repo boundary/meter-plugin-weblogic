@@ -1,0 +1,10 @@
+{
+  "WEBLOGIC_JVM_HEAPMEMORY_USED": {
+    "defaultAggregate": "max",
+    "defaultResolutionMS": 1000,
+    "description": "WebLogic - Heap Memory Used",
+    "displayName": "Heap Memory Used",
+    "displayNameShort": "Heap Memory Used",
+    "unit": "bytecount"
+  }
+}
