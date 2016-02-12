@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "name": "WebLogic",
+      "user": "",
+      "password": "",
+      "host": "localhost",
+      "port": 8888,
+      "pollInterval": 1000,
+      "source": "weblogic"
+    }
+  ],
+  "pollInterval": 1000
+}

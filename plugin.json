@@ -5,7 +5,7 @@
   "unsupportedPlatforms": [],
   "tags": "weblogic",
   "description": "Monitors WebLogic",
-  "command": "java -jar target/kafka-plugin-0.9.0-full.jar",
+  "command": "java -jar target/weblogic-plugin-0.9.0-full.jar",
   "postExtract": "",
   "metrics": [
     "WEBLOGIC_JVM_HEAPMEMORY_USED"
@@ -30,7 +30,7 @@
       "name": "name",
       "description": "A name to identify the WebLogic instance.",
       "type": "string",
-      "default": "kafka",
+      "default": "weblogic",
       "required": true
     },
     {
@@ -46,7 +46,7 @@
       "name": "port",
       "description": "The port of WebLogic JMX endpoint",
       "type": "integer",
-      "default": 9990,
+      "default": 8888,
       "required": true
     },
     {
